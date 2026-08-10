@@ -15,7 +15,7 @@ event_targets = {}
 
 vpc_name             = "ec2-instance"
 vpc_cidr_block       = "10.0.0.0/16"
-availability_zones   = ["us-east-1a"]
+availability_zones   = ["ap-south-1a"]
 public_subnet_cidrs  = ["10.0.1.0/24"]
 private_subnet_cidrs = []
 map_public_ip_on_launch = true
