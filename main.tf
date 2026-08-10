@@ -13,7 +13,7 @@ module "cloudwatch" {
 
 module "vpc" {
   source  = "app.terraform.io/TF01/vpc/aws"
-  version = "~> 1.0.1"
+  version = "~> 1.0.0"
 
   name                    = var.vpc_name
   cidr_block              = var.vpc_cidr_block
