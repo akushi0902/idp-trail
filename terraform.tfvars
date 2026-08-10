@@ -64,7 +64,7 @@ permissions_boundary  = null
 iam_instance_profile_name = "iam-profile-ec2-instance"
 
 ec2_name                             = "ec2-instance"
-ami_id                               = "ami-0c02fb55956c7d316"
+ami_id                               = "ami-0f58b397bc5c1f2e8"
 instance_type                        = "t3.micro"
 key_name                             = "ec2-instance"
 associate_public_ip                  = true
@@ -77,7 +77,7 @@ metadata_http_tokens                 = "required"
 metadata_http_put_response_hop_limit = 1
 
 subnet_name                     = "public-ec2-instance"
-subnet_cidr_block               = "10.0.1.0/24"
+subnet_cidr_block               = "10.0.3.0/24"
 subnet_map_public_ip_on_launch  = true
 assign_ipv6_address_on_creation = false
 ipv6_cidr_block                 = null
